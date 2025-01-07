@@ -1,0 +1,47 @@
+Data types:
+1)Dynamic type language
+Two types:
+1.primitive
+2.Non primitive
+To check the data type :typeof
+
+1)primitive data types:predifined;we can store singlr values
+Numbers:integets,float
+String:single,double quotes,backtick quotes
+Boolean
+Null:empty value or no value
+Undefined:declared variable with no value
+
+Conditional statements:
+-->set of instructions execute only when the condition is true
+COndition:an expression that evaluation is true
+
+In js:
+If
+Elseif
+else
+
+
+PRACTICAL
+Data types:
+1)Dynamic type language
+Two types:
+1.primitive
+2.Non primitive
+To check the data type :typeof
+
+1)primitive data types:predifined;we can store singlr values
+Numbers:integets,float
+String:single,double quotes,backtick quotes
+Boolean
+Null:empty value or no value
+Undefined:declared variable with no value
+
+Conditional statements:
+-->set of instructions execute only when the condition is true
+COndition:an expression that evaluation is true
+
+In js:
+If
+Elseif
+else
