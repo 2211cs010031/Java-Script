@@ -1,0 +1,76 @@
+Theoritical
+Relational operators:
+<,>,<=,>=,==,===,!=,!==
+==:it only check the value it wont check the datatype
+===:it check data type and the value
+
+Conditional operator:
+Syntax:
+(Condition)?exp1:exp2
+Eg:let t = 40;
+      let r = t > 40 ? "Ac-off" : "Ac-on";
+      document.write(r, "<br>");
+Here,if t value is > than 40 then the expression 1 will be executed “ac-off”
+If the condition is false it goes to expression 2 which is “Ac-on”
+
+
+
+Alert:
+alert("abhinaya");
+      document.write(alert);
+ It will displayed on window screen
+
+Promtop:(prompt)
+By default it is considered as string
+Take input from user
+let a = prompt("enter your name: ");
+      //   alert(a);
+      alert(`my name is,${a}`);
+
+let a = prompt();
+      document.write(a, "<br>");
+      document.write(typeof a, "<br>");
+      let b = prompt();
+      document.write(a + b, "<br>");
+
+By using prompt ,if we add two variable values using “a+b” it does not adds it .it concatenates the values as prompt is string
+Eg:a=12
+B=13
+Output:1213
+
+
+PRACTICAL:
+Relational operators:
+<,>,<=,>=,==,===,!=,!==
+==:it only check the value it wont check the datatype
+===:it check data type and the value
+
+Conditional operator:
+Syntax:
+(Condition)?exp1:exp2
+Eg:let t = 40;
+      let r = t > 40 ? "Ac-off" : "Ac-on";
+      document.write(r, "<br>");
+Here,if t value is > than 40 then the expression 1 will be executed “ac-off”
+If the condition is false it goes to expression 2 which is “Ac-on”
+
+
+
+Alert:
+alert("abhinaya");
+      document.write(alert);
+ It will displayed on window screen
+
+Promtop:(prompt)
+By default it is considered as string
+Take input from user
+let a = prompt("enter your name: ");
+      //   alert(a);
+      alert(`my name is,${a}`);
+
+let a = prompt();
+      document.write(a, "<br>");
+      document.write(typeof a, "<br>");
+      let b = prompt();
+      document.write(a + b, "<br>");
+
