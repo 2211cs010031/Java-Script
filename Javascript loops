@@ -1,0 +1,116 @@
+/ for in loop
+      // const a = "abhi";
+      // for (let i in a) {
+      //   document.write(a[i]);
+      // }
+
+      // for of loop
+      // const a = ["abhi", "bhavya", "shivani"];
+      // for (let e of a) {
+      //   document.write(e);
+      // }
+
+      // WHILE LOOP:
+      // let i = 2,
+      //   n = 5;
+      // while (i <= n) {
+      //   document.write(i);
+      //   i++;
+      // }
+
+      // let i = 2,
+      //   n = 8;
+      // while (i <= n) {
+      //   document.write(i);
+      //   i = i + 2;
+      // }
+
+      // let i = 2,
+      //   n = 8;
+      // while (i <= n) {
+      //   document.write(i + 1);
+      //   i = i + 2;
+      // }
+
+      // DO WHILE
+      // let i = 1;
+      // do {
+      //   document.write(i);
+      //   i++;
+      // } while (i > 5);
+
+      // for (let i = 1; i < 5; i++) {
+      //   if (i == 3) {
+      //     break;
+      //   }
+      //   document.write(i);
+      // }
+
+      for (let i = 1; i <= 8; i = i + 2) {
+        if (i == 4) {
+          break;
+        }
+        document.write(i);
+      }
+
+
+theoritical:
+For in loop:
+To iterate the character or string we use the for in loop
+Syntax
+For(let loop variable(i or j…) in variable name){
+Block of code
+}
+Eg:
+Const a=”ramya”
+For(let i in a){
+Console.log(a[i]);
+}
+
+While loop:
+Syntax:
+While(condition){
+#Block of code
+updation
+}
+Eg:1-5
+Let I=1,n=5
+Do while:even the condition is false it will alwayas execute one time
+Synatax:
+Do{
+Block of code 
+}while(condition)#it execute atlest one time
+Eg:let c=0;
+Do{
+Console.log©
+C++
+}while(c<5);
+Break and continue:
+Eg:
+for(let i=1;i<5;i++){
+if(i==3){
+break;
+}console.log(i);
+}
+Eg2:
+for (let i = 1; i <= 8; i = i + 2) {
+        if (i == 4) {
+          break;
+        }
+        document.write(i);
+      }
+Iteration 1:I=1,1<=8,1!=4
+#1
+I=1+2=3
+Iteration 2:I=3,3<=8,3!=4
+#3
+I=3+2=5
+Iteration 3: I=5,5<=8,5!=4
+#5
+I=5+2=7
+Iteration4: I=7,7<=8,7!=4
+#7
+I=7+2=9
+Iteration 4:I=9,9<=8 
+Condition is false
+terminates
