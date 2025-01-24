@@ -1,0 +1,73 @@
+Arrow functions:
+Es6 veersion
+Makes code more readable and more structure
+Also called anonymous function(lamda functions)
+Withiout function name bu they asigned ton variable .
+
+-->let c=()=>{
+Console.log(“hi charan”)
+}
+C()
+No function name and no arrow symbol
+Arrow functons with paramenters:
+Eg:
+Let x=(x,y)=>{
+Console.log(x+y)
+}
+x(20,30)
+x(20,40)
+Eg:2:
+Arrow function with only one argument  no need to use paranthesis
+let greet=x=>console.log(x);
+greet(“hello”)
+Arroe function without any argument:
+let greet=()=console.log(“hello”)
+greet()
+Eg:Arrow function as an expressiion
+Let 18;
+Let welcome=(age<18)?
+()=>console.log(“abhi”):
+()=>console.log(“hi bahvya);
+Welcome()
+Ternary:
+If the condition is true expression one wil execute otherwise expression 2 will execute
+Synchronous:
+tasks execute one by one or step by step
+Execute one task at  time
+Eg:
+function task(){
+console.log(“task1:start
+}
+function task2(){
+console.log(“task2:start
+}
+function task3(){
+console.log(“task3:start
+}
+task1();
+task2();
+task3();
+Asynchronous functions:
+Execute multiple tasksa at a time
+It wont wait for the remaining task to get executed
+Eg:
+console.log("hi");
+      setTimeout(() => {
+        console.log("hi iam waiting");
+      }, 2000);
+      console.log("iam in lab");
+Functons
+Oops
+File handling
+Multi threading
+Excepetion handling
+Json
+
+Java script call back():
+Call back function is Passed as an argumrnt to another function
+Promise:
+Three states
+1.pending:still not completed --continuin
+2.Fullfilled:task completed 
+3.Rejected:the operation is failed
+---used for events
