@@ -1,0 +1,91 @@
+Callback function: you can pass the callback function as an arugument to another function
+EXECUTION: the function receiving the callback will execute the callback at same point during execution(often at the end or after  an asynchronous operation is done)
+
+EXAMPLE:
+function mainfunction(callback){
+console.log("executing main function");
+callback();
+// here we call the callback function
+}
+function callbackfunction(){
+console.log("callback function executed")
+}
+mainfunction(callbackfunction);
+ex:
+mainfunction takes a parameter callback
+callbackfunction is passed as an argument to mainfunction inside the mainfunction, the callback function
+
+OUTPUT:
+mainfunction(callbackfunction):
+it will execute the code inside the mainfunction
+
+function greet(name,callback){
+console.log("hello"+name);
+callback();
+//execute the callback function after greeting
+} 
+function goodbye(){
+console.log("goodbye")
+}
+greet("priya",goodbye);
+
+EXAMPLE 3:
+using an anonymous function as callback
+function greet(name,callback){
+            console.log("hello" +name);
+            callback();
+        }
+        greet("priya",function(){
+            console.log("goodbye");
+        })
+EXAMPLE 4: Asynchronous callback with setTimeout
+     function fetchData(callback){
+            console.log("Fetching data...")
+            setTimeout(function(){
+                console.log("Data fetched");
+                callback();
+            },2000);
+        }
+        function processData(){
+            console.log("processing  the fetched data..")
+        }
+        fetchData(processData);
+EXAMPLE 5:
+using a callback with array methods(map)
+const numbers=[1,2,3,4,5];
+        const p=numbers.map(function(num){
+            return num*2
+        })
+        console.log(p)
+EX: map() is a built in array method that callback function to process each item in array
+the call back here doubles each number(num*2) and will result a new array with doubled values
+
+User registration scenario based
+
+
+practical:
+<script>
+      function registeruser(username, email, callback) {
+        console.log("registering user" + username);
+        setTimeout(function () {
+          console.log("user" + username + "registered succesfully");
+          callback(email);
+        }, 2000);
+      }
+      function sendWelcomeEmail(email) {
+        console.log("sending welcome email to" + email);
+      }
+      registeruser("Harshith", "harshith123@gmail.com,sendWelcomeEmail");
+    </script>
+
+function fetchData(callback){
+            document.write("Fetching data from the server... <br>");
+            setTimeout(function(){
+                document.write("Data fetched successfully!<br>");
+                callback()
+            },2000);
+        }
+        function processData(){
+            document.write("Processing the fetched data... <br>");
+        }
+        fetchData(processData);
