@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="a">abhinaya</h1>
+    <h1 id="bb">bhavya</h1>
+    <h1 id="aa">shibvani</h1>
+    <h1 id="b">saniya</h1>
+    <script>
+        let x=document.getElementById("a")
+    </script>
+  </body>
+</html>
+
+
+  DOM:representationn of html but in tree like structure
+Key points:
+it is used in web development used to interact and manipulate the html documnts
+--whrn the web page loaded ,the browser created the dom of the webpage
+
+1.structure:the dom represents the structure of the html document as a tree.each node rpresents the element ,an attribute or text 
+2.Manipualtion:uding  javascript yout can interact with elements
+3.Event handling:
+
+
+
+
+
+
+Methods of DOM:
+Used to inteact with and manipulate the document
+Getting elemtnts:
+1.getting  an element by id
+2.Getting an element by class
+3.Getting an element by tag
+4.Getting an element by query selector
+
+
+#id and class
+         
