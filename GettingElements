@@ -1,0 +1,81 @@
+GetElementByclassName():
+Returns all the element having the same class name
+It returns a html collection object
+<h1 id="a" class="a">iam abhi</h1>
+    <h1 id="b" class="b">iam ram</h1>
+    <h1 id="c" class="a">iam ravi</h1>
+    <h1 class="a">iam kavya</h1>
+    <script>
+      let x = document.getElementByTagName("a");
+      console.log(x);
+
+
+Get an element by tag name:
+GetElementByTagName():
+This method takes a tag name as a string and returns an html collection object
+Html collection is an html elememt
+It  usess the loop to print the each element
+<h1 id="a" class="a">iam abhi</h1>
+    <h2 id="b" class="b">iam ram</h2>
+    <h1 id="c" class="a">iam ravi</h1>
+    <h1 class="a">iam kavya</h1>
+    <script>
+      let x = document.getElementByTagName("h1");
+      console.log(x);
+    </script>
+
+Getting an element by using query selector methods:
+The document queery selector method selects  the html by tag name, by id,by class name
+Queryseledctor:can be used to selects  the html element by tag name, by id,by class name 
+But it only selects the 1st matching element 
+
+
+
+practical:
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <h1 id="a">abhinaya</h1>
+    <h1 id="bb">bhavya</h1>
+    <h1 id="aa">shibvani</h1>
+    <h1 id="b">saniya</h1>
+    <script>
+        let x=document.getElementById("a")
+    </script> -->
+
+    <!-- <h1 id="a">iam abhi</h1>
+    <h1 id="b">iam ram</h1>
+    <h1 id="c">iam ravi</h1>
+    <script>
+      let x = document.getElementBy("b");
+      console.log(x); -->
+    <!-- </script> -->
+
+    <!-- <h1 id="a" class="a">iam abhi</h1>
+    <h2 id="b" class="b">iam ram</h1>
+    <h1 id="c" class="a">iam ravi</h1>
+    <h1 class="a">iam kavya</h1>
+    <script>
+      let x = document.getElementByTagName("h1");
+      console.log(x);
+    </script> -->
+
+    <h1 id="a" class="a">iam abhi</h1>
+    <h1 id="b" class="b">iam ram</h1>
+    <h1 id="c" class="a">iam ravi</h1>
+    <h1 class="a">iam kavya</h1>
+    <script>
+      let x = document.getElementByTagName("a");
+      console.log(x);
+
+      for (i = 0; i < x.length; i++) {
+        console.log(x[i]);
+      }
+    </script>
+  </body>
+</html>
