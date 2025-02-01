@@ -1,0 +1,25 @@
+voting eligibility system
+      // let a = parseInt(prompt("enter age"));
+      // var citizen = prompt("enter indian or no");
+      // var citizenTest = prompt("enter passed or not: ");
+      // if (age >= 18 && (citizen == "indian" || citizenTest == "passed")) {
+      //   console.log("eligible to vote");
+      // } else {
+      //   console.log("not eligible to vote");
+      // }
+      // amount spentt -(amountspent *discount/100)
+      let p = parseInt(prompt("enter spend amounr"));
+      let premium = prompt("enter yes or no");
+      if (p > 100) {
+        let b = p - (p * 20) / 100;
+        document.write(`the person gets 20% discount, ${b}`);
+      } else if (p > 50) {
+        let c = p - (p * 10) / 100;
+        document.write(`the person gets 10% discount ${c}`);
+      } else if (premium == "yes") {
+        let d = p - (p * 5) / 100;
+        document.write(`the person gets 5 % discount ${d}`);
+      }
+    </script>
+  </body>
+</html>
