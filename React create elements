@@ -1,0 +1,91 @@
+REACT:
+Create an element:
+Js:
+Let  a=document.createElenent(‘h1’)
+a.innerhtml=”iam abhi”
+Document.body.appendchid(a)
+To create an element in react js:
+React.createElement(“h1”)
+React.createElement(type,prop)
+Here the type is the tag name
+Prop is the classname ,id,onclick
+To display the element:
+ReactDom.createRoot()
+reactDOm.render()
+Render():
+Syntax:
+Reactelement =what to render 
+Container =where to render
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script src="a.js"></script>
+</body>
+</html>
+
+const b=React.createElement(
+    'h1', {id:'a'} , 'I am Sai charan'
+)
+
+const element=document.getElementById('root')
+const root=ReactDOM.render(b,element)
+root.render(b)
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <h1>iam sai<br />gopi</h1>
+    <script src="a.js"></script>
+  </body>
+</html>
+
+
+Without jsx:
+<dib id=”app”><div/>
+<script>
+Const element =react.createELement(‘h1’,{class name: ‘a’},hello ,jsx)
+Const root .
+Expression in jsx:
+Ex:
+<div id=”a”><div/>
+<script type=”text/babel”>
+const n=10
+const m=<h1>react is {m*2} times better than js <h1/>
+const r=reacatadom.createroot(document.getelementbyid(‘a’)
+r.render(m)
+Using a function call:
+You can call the function call directly within the jsx experessions
+EX:
+<div id=’a’><div/>
+<script type=”text/label”>
+Function getgreeting(name){
+Return `hello,${name}!welcome to react`
+}
+//component that uses the function in js
+Function Greetings()
+Const name=”sai”
+Return <h1>{getGreeting(name}<h1>
+//calling a functio in jsx
+</script>
