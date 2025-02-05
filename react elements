@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+  </head>
+  <body>
+    <!-- <div id="root"></div>
+    <h1>iam sai<br />gopi</h1>
+    <script src="a.js"></script> -->
+
+    <!-- <div id="app"></div>
+    <script type="text/babel">
+      const element = <h1 classname="a">hello,Jsx</h1>;
+      const e = document.getElementById("app");
+      const root = ReactDom.createRoot(e);
+      root.render(element);
+    </script> -->
+
+    <!-- creatig elemenet without jsx --> 
+    <!-- <div id="app"></div>
+    <script type="text/babel">
+      const element = document.getElementById("app");
+      const e = React.createElement("hi", { id: "a" }, "iam sai");
+      const element = document.getElementById("app");
+      const root = ReactDom.createRoot(element);
+      root.render(element);
+    </script> -->
+
+    <!-- <div id="app"></div>
+    <script type="text/babel">
+      const n = 10;
+      const m=<h1>React is {n*2} times better than Js</h1>
+      cosnt root=ReactDom.createRoot(document.getElementById()) -->
+
+      <div id="app"></div>
+      <script type="text/babel">
+        const App=()=>{
+          cosnt isLiggedIn=false;
+          return(
+            <div>
+              isLoggedIn?(<h1>Welcome back ,user!</h1>):(<h1>please log in</h1>)
+              {isLoggedIn &&<h2> You havew new notification</h2>}
+              </div>
+          );
+        };
+        const root=ReactDom.createRoot(console.log.getElementById('app'))
+        root.render(<App/>)
+      </script>
+         
+    </script>
+  </body>
+</html>
