@@ -1,0 +1,49 @@
+import React from "react";
+
+function FruitList() {
+  const fruits = ["Apple", "Banana", "Cherry"]; // Example array
+
+  return (
+    <div>
+      <h1>Fruit List</h1>
+      <ul>
+        {fruits.map((fruit, index) => (
+          <li key={index}>{fruit}</li> // Use correct variable names
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+export default FruitList;
+
+// import Greeting from "./Greeting";
+
+// function App() {
+//   const isLoggedIn = true;
+
+//   return (
+//     <div className="App">
+//       <Greeting isLoggedIn={isLoggedIn} />
+//     </div>
+//   );
+// }
+// export default App;
+
+
+THEORITICAL
+Error:script disabled -command ;set
+#list and keys:
+In react, list is a collection of items you want to show on screen
+List of users,products
+Keys:
+In react keys helps us to maintain the track  of items in the list
+By using this keys react knows which item you hava changed,updated
+Map():
+In Js we use map what are the elements present in the arary what are the function will be applied to all the elements using thid map
+Ex:
+Const n=[1,2,3,4,5]
+Const d=n.map(num=>num*2)
+Console.log(d)
+#Const d=n.map(num=>num*2) this function will  be applied to all the elements in the array
+#2,4,,6,8,10
